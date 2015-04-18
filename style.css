@@ -1,0 +1,88 @@
+/* the outer left and right padding is needed for the calculation */
+/* the thumbnail width */
+/* the thumbnail margin */
+/* minimum thumbnails per row */
+/* maximum thumbnails per row */
+.site {
+  /* site is centered */
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .site .thumbnail-container {
+    /* add some margin to the navbar */
+    margin-top: 40px;
+    /* subtract the thumbnail margin on the left */
+    margin-left: -5px;
+    /* subtract the thumbnail margin on the right */
+    margin-right: -5px;
+    /* remove all text so the calculation works */
+    font-size: 0;
+    /* clearfix */ }
+    .site .thumbnail-container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .site .thumbnail-container .thumbnail {
+      /* Bootstrap override */
+      padding: 0;
+      /* thumbnails float left */
+      float: left;
+      width: 96px;
+      margin: 5px; }
+
+/* all thumbnails plus margin */
+/* the thumbnail with plus site padding */
+/* the site width plus offset */
+@media (min-width: 0px) {
+  .site {
+    width: 338px; }
+    .site .main {
+      width: 308px; } }
+/* all thumbnails plus margin */
+/* the thumbnail with plus site padding */
+/* the site width plus offset */
+@media (min-width: 474px) {
+  .site {
+    width: 444px; }
+    .site .main {
+      width: 414px; } }
+/* all thumbnails plus margin */
+/* the thumbnail with plus site padding */
+/* the site width plus offset */
+@media (min-width: 580px) {
+  .site {
+    width: 550px; }
+    .site .main {
+      width: 520px; } }
+/* all thumbnails plus margin */
+/* the thumbnail with plus site padding */
+/* the site width plus offset */
+@media (min-width: 686px) {
+  .site {
+    width: 656px; }
+    .site .main {
+      width: 626px; } }
+/* all thumbnails plus margin */
+/* the thumbnail with plus site padding */
+/* the site width plus offset */
+@media (min-width: 792px) {
+  .site {
+    width: 762px; }
+    .site .main {
+      width: 732px; } }
+/* all thumbnails plus margin */
+/* the thumbnail with plus site padding */
+/* the site width plus offset */
+@media (min-width: 898px) {
+  .site {
+    width: 868px; }
+    .site .main {
+      width: 838px; } }
+/* all thumbnails plus margin */
+/* the thumbnail with plus site padding */
+/* the site width plus offset */
+@media (min-width: 1004px) {
+  .site {
+    width: 974px; }
+    .site .main {
+      width: 944px; } }
